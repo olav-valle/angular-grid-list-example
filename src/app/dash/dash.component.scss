@@ -1,0 +1,49 @@
+.grid-container {
+  margin: 10px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.calendar-title {
+  margin-bottom: 0;
+}
+
+.calendar {
+  // position: absolute;
+  top: 10px;
+}
+
+.mat-calendar {
+  // max-height: 100%;
+  // max-inline-size: 100%;
+  // max-width: 100%;
+  max-height: fit-content;
+}
+.shape-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-footer {
+  position: absolute;
+  bottom: 30;
+  left: 30;
+}
